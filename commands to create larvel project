@@ -1,0 +1,20 @@
+Open the Git Bash window.
+---
+Now we will create a Laravel project in Xampp folder. First we need to move to the xampp folder where we create a new laravel project.
+cd c:
+cd xampp/htdocs/
+In the above screen, cd c: command is used to move to the c drive and then we use the command cd xampp/htdocs/ to move to the xampp folder.
+---
+First, we use the ls command to view the list of projects.
+it shows that list is empty, i.e., no projects are available in the xampp folder. Now, we first clear the screen, and create a new laravel project.
+----
+Create a new laravel project.
+we use the command "composer create-project laravel/laravel firstproject".
+where,
+laravel/laravel: It is a vendor package.
+firstproject: It is a project name.
+-----
+We can also use below commands to create a new laravel project:
+
+composer create-project --prefer-dist laravel/laravel project_name 
+composer create-project laravel/laravel project_name --prefer-dist  
